@@ -119,12 +119,14 @@ num_locations <- (limits=unique(locations))
 # Location column and filter to only keep WA locations
 # Then, calculate the number of protests recorded in Washington
 # Save the NUMBER of WA locations in a variable called `num_in_wa`
-num_in_wa <-
+There are 1375 protests occurred in WA.
+num_in_wa <- str_count(Location, "WA")
 
 # (3.d) What proportion of protests occurred in Washington?
 # Divide the number of protests in Washington by the total number of protests
 # Save this proportion in a variable called `prop_in_wa`
-prop_in_wa <- num_in_wa/num_protests
+The propotion is 3.61%.
+prop_in_wa <- (num_in_wa/num_protests)*100
 
 # (3.e) Now, using the same stringr function and building on the code that
 # you've written above, write a function `count_protests_in_location()` that
@@ -134,6 +136,11 @@ prop_in_wa <- num_in_wa/num_protests
 # NY." 
 # If the location is not found in the dataset, the function should return the
 # sentence: "Sorry, that location is not found."
+if(){
+"There were protests in ."
+} else{
+    print("Sorry, that location is not found.")
+}
 
 # (3.f) Use your `count_protests_in_location()` function above to compute the
 # number of protests in "Washington, DC" and return the resulting message
@@ -146,7 +153,7 @@ dc_summary <-
 # (3.h) Let's try to find out how many protests occurred in each state. To do
 # so, first use a stringr function to extract the last 2 characters from every
 # location and use these 2 characters to create a new vector called `states`
-
+states <- c()
 # (3.i) What are the unique states are in the dataset? Create a vector of just the
 # unique states in the dataset
 # Save the unique states in a variable called `uniq_states`
@@ -164,18 +171,18 @@ state_summary <-
 # (4a) Extract the `Date` column and convert it into a data by using the
 # `as.Date()` function.
 # Save this value in a variable called `dates`
-dates <- 
+dates <- as.Date(dates)
 # (4.b) What is the most recent date in the dataset?
 # Store this value in a variable called `most_recent_protest`
-most_recent_protest
+most_recent_protest<-max(dates)
 # (4.c) What is the earliest date in the dataset?
 # Store this value in a variable called `earliest_protest`
-earliest_protest <-
+earliest_protest <- min(dates)
 # (4.d) What is the timespan of the dataset — in other words, the distance
 # between the earliest protest and most recent protest?
 # Hint: R can do math with dates pretty well by default!
 # Store this value in a variable called `time_span`
-time_span <-
+time_span <- max(dates)-min(dates)
 # (4.e) Now, create a vector of only the dates that are in 2020.
 # Note: If you want only dates after a certain start date, you can use
 # "2020-01-01" with comparison operators (==, >=, <=)
