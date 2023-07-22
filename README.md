@@ -75,7 +75,8 @@ In the second chapter of *Data Feminism*, Klein and D'Ignazio describe 4 ways th
 > (4) Teach: The identities of data scientists matter, so how might we engage and empower newcomers to the field in order to shift the demographics and cultivate the next generation of data feminists?  
 
 - How does the CountLove project embody one or more of these 4 forms of challenging power? Please answer in at least 3-4 sentences (3 points)
-
+I think the CountLove project did a good job on collecting data, they collected data from reliable sources, such as local news and tvs. And I think the founders of Countlove are using good algorisms, in order to collect and analyze data more precisely.
 - What is the most interesting or surprising thing you learned from this analysis? Please answer in at least 2-3 sentences (2 points)
-
+I found that there are about as much as 750000 people for protesting, that quantity shocked me.
 - What is a kind of analysis that you would like to do or that would be interesting to do with the CountLove data that you don't have the time or skills to accomplish at this moment? Please answer in at least 2-3 sentences (2 points)
+I would like to see which location have the highest protesting population. And I also would like to make some visulization chart for showing those data straightly.
