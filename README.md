@@ -52,11 +52,14 @@ CountLove made their estimates by checking the the number appeared in the articl
 
 - Reflection 1: Why do you think the mean is higher than the median? Which metric would you use in a report about this data, and why? Please answer in 2-3 sentences (2 points)
 
+I think that's because some area have more protestors than another. I think I will use median in a report, because it seems like not impacted by the population of protestors in each area that much.
+
 - Reflection 2: Before actually calculating the number of protests that occurred in 2018, 2019, 2020, record your guesses for the following questions. (1 point)
 
   Guess: Do you think there were more protests in 2019 than in 2018? Why or why not? Please answer in 1 or 2 sentences
-
+I think if there were more unequity events happened in 2019, then there will be more protests in 2019.
   Guess: Do you think there were more protests in 2020 than in 2019? Why or why not? Please answer in 1 or 2 sentences
+  I think there will be more protests in 2020 than in 2019, because people protesting about the death of Mr Floyd.
 
 - Reflection 3: Does the change in the number of protests from 2018 to 2019 to 2020 surprise you? Why or why not? What do you think explains the fluctuation? Please answer in 1 or 2 sentences (2 points)
 
