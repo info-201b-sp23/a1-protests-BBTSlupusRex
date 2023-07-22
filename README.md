@@ -23,17 +23,30 @@ To get more familiar, we are going to begin by doing some background reading.
 
 - First, please read [this FAQ](https://countlove.org/faq.html) from the CountLove website and the opening of [this blog post](https://www.tommyleung.com/countLove/index.htm). Based on the information in these pieces, why did the creators start collecting the CountLove data? Please answer in 2-3 sentences (3 points)
 
+The creators started collecting the CountLove data, because they would like to record real data about protests that happened in the US. They hope governors who looked at those data can hear what the protestors need, and make the country better.
+
+
 - Next, we would like you to read this [*New York Times* piece, which uses CountLove data](https://www.nytimes.com/interactive/2020/06/13/us/george-floyd-protests-cities-photos.html) (here's a [Google Doc version for anyone who gets paywalled](https://docs.google.com/document/d/1sdjFsA5csYuH4plNEEk7WXT77K5h5ZuyW05CBwYdk6A/edit?usp=sharing)), and which describes the Black Lives Matter protests that occurred in the summer of 2020. Please summarize the main point or argument of this article in 2-3 sentences (3 points)
+
+This article mentioned protesting activities that Americans did in order to fight against racism, and how they expressed their anger at Mr Floyd’s death. The article questioned, will those protest activities make the society pay attention to black Americans’ difficulties? 
 
 Next, we're going to reflect about who collected this data, and what's actually inside it.
 
 - Who collected and shared the CountLove data, and what do they do for a living? Please answer in 1-2 sentences(2 points)
 
+Nathan Perkins and Tommy Leung collected and shared the CountLove data, they are engineer and scientists.
+
 - As Klein and D'Ignazio remind us, when it comes to data, "what gets counted counts." What types of demonstrations does CountLove include in their data, and what types do they exclude? (3 points)
+
+According to their introduction page, they do include real protests, but they don’t include demonstrations such as awareness events, historical memorial events, political events, found-rising, town halls.
 
 - How and where does CountLove get their data about the protests? Please answer in 2-3 sentences (2 points)
 
+According to their introduction page, they get their data from tv sites and local newspapers. They collect those data by crawling(using python and other coding software) through the internet. They have a server, database, and local machine to store and deal with the data they collected.
+
 - How does CountLove make their estimates about the number of people who attended a protest? What potential problems might arise from this method of estimation? Please answer in 3-4 sentences (4 points)
+
+CountLove made their estimates by checking the the number appeared in the articles, for example, dozen equals to 10, hundred equals to 100. I think there may be some misunderstanding of the real quantity of people who attend protests, because people who wrote some articles may contain inaccurate data, in order to achieve some kind of purposes.
 
 ## While You Code: Critical Analysis & Reflection
 
